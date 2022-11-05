@@ -1,6 +1,6 @@
 from .detection import calculate_intersection
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 def detect(text, truncate_size=2048):
     if isinstance(text, bytes):
