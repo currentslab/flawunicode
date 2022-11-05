@@ -25,7 +25,7 @@ setup(
     url='https://github.com/currentsapi/flawunicode',
     keywords='unicode',
     packages=['flawunicode'],
-    package_data={'flawunicode': ['flawunicode/*', 'resource/*']},
+    package_data={'flawunicode': ['flawunicode/*', 'resources/*']},
     include_package_data=True,
     install_requires=[],
     license='MIT License',
