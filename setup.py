@@ -8,15 +8,12 @@ try:
 except ImportError:
     from distutils.core import setup
 
-with open('LICENSE', 'r') as f:
-    license_ = f.read()
-
 with open('README.md', 'r') as f:
     readme = f.read()
 
 setup(
     name='flawunicode',
-    version='0.1.0',
+    version='0.1.1',
     description='detect flaw or encoding error in unicode text',
     long_description=readme,
     long_description_content_type="text/markdown",
