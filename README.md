@@ -2,7 +2,6 @@
 
 Detect unreadable unicode text
 
-
 Ever encounter any text when crawl text from the internet or inside your raw corpus?
 
 ```
@@ -25,6 +24,9 @@ flawunicode.detect("Hello World!")
 ```
 
 
+## Note
+
+The underlying statistic came from news corpus in [currents api](https://currentsapi.services/en) database. So social network style text maybe rank with low score. You just need to calculate your own frequently used bi-gram characters and it should be fine.
 
 
 
