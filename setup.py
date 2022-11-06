@@ -13,7 +13,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name='flawunicode',
-    version='0.1.2',
+    version='0.1.3',
     description='detect flaw or encoding error in unicode text',
     long_description=readme,
     long_description_content_type="text/markdown",
